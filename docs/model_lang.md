@@ -49,7 +49,7 @@ There are three models you can choose from.
 
 **Note 1: Use `--openai_key` option to specify OpenAI API key. If you have multiple keys, separate them by commas (xxx, xxx, xxx) to reduce errors caused by API call limits.**
 
-**Note 2: You can just set the environment variable `BBM_OPENAI_API_KEY` instead the openai_key. See [Environment setting](settings.md).**
+**Note 2: You can just set the environment variable `BBM_OPENAI_API_KEY` instead the openai_key. See [Environment setting](env_settings.md).**
 
 ### CAIYUN 
 
@@ -60,7 +60,7 @@ Using Caiyun model to translate. The api currently only support:
 1. Simplified Chinese <-> English
 2. Simplified Chinese <-> Japanese
 
-The official Caiyun has provided a test token (3975l6lr5pcbvidl6jl2). You can apply your own token by following this [tutorial].(https://bobtranslate.com/service/translate/caiyun.html)
+The official Caiyun has provided a test token (3975l6lr5pcbvidl6jl2). You can apply your own token by following this [tutorial](https://bobtranslate.com/service/translate/caiyun.html).
 
             
     bbook_maker --model caiyun --caiyun_key 3975l6lr5pcbvidl6jl2 --book_name test_books/animal_farm.epub
